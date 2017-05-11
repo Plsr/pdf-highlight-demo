@@ -1,6 +1,6 @@
 console.log("Howdy, world"); // DEBUG
 
-var url = "http://cdn.mozilla.net/pdfjs/tracemonkey.pdf"
+var url = "https://cdn.mozilla.net/pdfjs/tracemonkey.pdf"
 PDFJS.workerSrc = 'http://mozilla.github.io/pdf.js/build/pdf.worker.js';
 
 var pdfDoc = null,
